@@ -1,7 +1,7 @@
 package inheritance;
 public class array_operation extends initial_parent
 {
-		public void greatest()									//Greatest Number
+		public void greatest()										//Greatest Number
 		{
 			System.out.println("Greatest Number Program");
 			numb=accept();
@@ -15,22 +15,22 @@ public class array_operation extends initial_parent
 			}
 			System.out.println("The greater no is ="+grt);
 		}
-		public void smallest()									//Smallest Number
+		public void smallest()										//Smallest Number
 		{
 			System.out.println("Smallest Number Program");
 			numb=accept();
-			grt=numb[0];
+			sml=numb[0];
 			for(i=0;i<numb.length;i++)
 			{
-				if(grt>numb[i])
+				if(sml>numb[i])
 				{
-					grt=numb[i];
+					sml=numb[i];
 				}
 			}
-			System.out.println("The smallest no is ="+grt);
+			System.out.println("The smallest no is ="+sml);
 			
 		}
-		public void ascending()									//Ascending Number
+		public void ascending()										//Ascending Number
 		{
 			System.out.println("Ascending Number Program");
 			int[] num=accept();
@@ -53,7 +53,7 @@ public class array_operation extends initial_parent
 				System.out.println(num[i]);
 			}
 		}
-		public void descending()								//Descending Number
+		public void descending()									//Descending Number
 		{
 			System.out.println("Descending Number Program");
 			int[] num=accept();
